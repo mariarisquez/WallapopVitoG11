@@ -1,0 +1,179 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 nov. 2021, 18:23:59
+    Author     : maria
+*/
+/*{
+   background-color: rgb(211, 211, 211); 
+}*/
+*{
+    box-sizing:  border-box;
+}
+body {
+    margin: 0;
+    
+}
+.head{
+    color: #FFFFFF;
+}
+.main-container__title{
+    color: #FFFFFF;
+
+}
+img{
+    margin: auto; 
+    display: block;
+    width: 10%;
+    height: 10%;
+    align: center;
+}
+.main-header__title{
+    text-align: center;
+    font-size: 2.5em;
+    margin: 10px 0; 
+    color: #454546;
+}
+ .icon-menu{
+    font-size: 1.5em;
+    border: 1px solid #454546;
+    display: block;
+    padding: 10px 20px;
+    margin-left: 1em;
+  }
+
+  .fa-search{
+    font-size: 1.5em;
+    margin-left: 1em;      
+  }
+  .main-container__logo{
+    align-self: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .main-header__title{
+      align-items: center;
+      text-align: center;
+  }
+  .main-header__input{
+      background-color:#FFFFFF;
+      padding:10px;
+      margin-left: 5em;
+      align-items: center;
+      align-content: center;
+      text-align: left;
+      display:block; 
+  }
+  .main-container__login{
+      background-color: #9999ff;
+      margin-right: 10px;
+      font-size: 1em;
+  }
+  .btn-light{
+     background-color: #9999ff;
+     padding: 10px;
+  }
+  .main-container__menu{
+      background-color:#cccccc;
+  }
+  .menu{
+      display: none;
+  }
+  .main-header{
+      background-color: #FFFFFF;
+      
+  }
+  .main-search__conta{
+     background-color:#cccccc;
+     display: block;
+     
+  }
+  
+  
+  
+  .navbar .datosusuario{
+    display: flex;
+    padding-left: 0;
+}
+
+.navbar .datosusuario img{
+    max-height: 46px;
+    margin-left: 15px;
+}
+
+.navbar .logo{
+    align-self: center;
+    text-align: center;
+}
+
+.navbar a{
+    margin: auto;
+    padding: 6px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.navbar a img{
+    width: 100px;
+}
+
+.navbar .tema{
+    padding-right: 0;
+    align-self: center;
+}
+
+.navbar .tema > div, .navbar .tema > input{
+    margin-left: 10px;
+}
+
+.formulario{
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.form-control{
+    font-size: .9em;
+}
+
+.registro{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#formRegistro #foto:hover{
+    cursor: pointer;
+}
+
+#map{
+    height: 100%;
+    width: 100%;
+}
+
+.buscadorViajes{
+    margin-top: 20px;
+}
+
+.buscadorViajes .form-control{
+    margin: 0 10px;
+}
+
+#buscarViajes{
+    margin: 0 10px;
+}
+
+.table{
+    text-align: center;
+}
+
+.table td, .table th{
+    border-top: none;
+}
+
+.table tr{
+    cursor: pointer;
+}
+
+
