@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="images/png" href="images/WallapopVitoLogo.PNG">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="js/subirProducto.js" type="text/javascript"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="row mx-auto w-100 justify-content-end">
+                <div class="col-lg-4 logo">
+                    <a href="index.html"><img src="images/WallapopVitoLogo.png"></a>
+                </div>
+            </div>
+        </nav>
+        <div class="container registro">
+            <div class="row">
+                <div class="col-lg-6 formulario">
+                    <h1 class="text-center">Crear viaje</h1>
+                    <form id="formSubirProducto" onsubmit="subirProducto(); return false;" method="post">
+                        <p>Email: <input type="text" class="form-control" id="email" name="email" required></p>
+                        <p>Nombre: <input type="text" class="form-control" id="nombre" name="nombre" required></p>
+                        <p>Descripcion: <input type="text" class="form-control" id="nombre" name="nombre" required></p>
+                        <p>
+                            <select id="categoria" class="form-control" required>
+                                <option value="">-Categoria-</option>
+                                <option id="ropa" value="ropa">Ropa</option>
+                                <option id="coches" value="coches">Coches</option>
+                                <option id="tecnologia" value="tecnologia">Tecnologia</option>
+                                <option id="muebles" value="muebles">Muebles</option>
+                                <option id="deporte" value="deporte">Deporte</option>
+
+                            </select>
+                        </p>
+                        <p>Precio: <input type="number" class="form-control" id="precio" name="precio" step="0.01" min="0.01" required></p>
+                        <p>EmailVendedor: <input type="text" class="form-control" id="emailV" name="emailV" required></p>
+                        <p>EmailComprador: <input type="text" class="form-control" id="emailC" name="emailC"></p>
+                        <p>Fecha: <input type="datetime-local" class="form-control" id="fechaCompra" name="fechaCompra"></p>
+                        <input type="submit" class="btn btn-light mt-3" value="Guardar">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

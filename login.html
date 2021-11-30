@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="images/png" href="images/WallapopVitoLogo.PNG">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+        
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="row mx-auto w-100 justify-content-end">
+                <div class="col-lg-4 logo">
+                    <a href="index.html"><img src="images/logo.png"></a>
+                </div>
+                <div class="col-lg-4 tema">
+                    <div class="float-right"><input type="button" class="btn btn-tema" id="tema" value=""></div>
+                </div>
+            </div>
+        </nav>
+        <div class="container registro">
+            <div class="col-lg-6 formulario mx-auto">
+                <h1 class="text-center">Login</h1>
+                <form id="formLogin" class="form-group" onsubmit="login(); return false;" method="post">
+                    <p>Email: <input type="text" class="form-control" id="email" name="email" required></p>
+                    <p>Contrase&ntilde;a: <input type="password" class="form-control" id="contrasenia" name="contrasenia" required></p>
+                    <input type="submit" class="btn btn-light float-right mt-3" value="Entrar">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
